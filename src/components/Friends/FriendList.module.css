@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    margin: 0 auto;
+    margin-top:  90px;
+    gap: 20px;
+    padding: 0;
+}
+
+.friends {
+    border: 2px solid;
+    border-radius: 7px;
+    padding: 10px;
+    list-style: none;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,32 @@
+.container {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.head {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+.listhead {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    border: 2px solid black;
+}
+
+.listhead:nth-child(even) {
+    background-color: white;
+}
+
+.listhead:nth-child(odd) {
+    background-color: grey;
+}
+
+
+
+
+

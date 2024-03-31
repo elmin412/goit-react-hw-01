@@ -1,0 +1,47 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 15px 0 0;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    
+}
+.info {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 0;
+    border-top: 2px solid dimgrey;
+    margin: 0 auto;
+    background-color: rgb(197, 197, 197);
+}
+
+
+.list {
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    width: 70px;
+}
+
+.list:not(:last-child) {
+    border-right: 2px solid;
+}
+
+.infoCount {
+    font-weight: 700;
+}
